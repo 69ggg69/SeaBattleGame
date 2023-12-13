@@ -1,5 +1,11 @@
+import java.awt.*;
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+            try {
+                BattleshipGame game = new BattleshipGame();
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }
     }
-}
+
